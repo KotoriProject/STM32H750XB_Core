@@ -18,6 +18,7 @@
 
 1. dw
 2. 123
+3. 321
 
 ### External Memory
 ### GPIO AFIO
