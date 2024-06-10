@@ -16,7 +16,9 @@
 ### Power
 参考ST官方给出的H7电源设计，STM32H750XBH6共有以下供电域：
 
-1. 
+1. dw
+2. 123
+
 ### External Memory
 ### GPIO AFIO
 ### Debug Port
