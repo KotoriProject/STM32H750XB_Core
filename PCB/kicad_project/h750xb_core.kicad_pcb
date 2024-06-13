@@ -2593,7 +2593,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23"
 		(layer "F.Cu")
 		(uuid "233330d2-0908-451a-9301-14a243a57fcb")
-		(at -23.495 84.582)
+		(at 3.3704 92.248)
 		(descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "D3"
@@ -6169,7 +6169,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R8"
-			(at 0 -1.17 360)
+			(at 0 -1.17 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "acf6e197-88fc-46d8-b4a7-d6ff26988a50")
@@ -6181,7 +6181,7 @@
 			)
 		)
 		(property "Value" "4.99kΩ/12kΩ"
-			(at 0 1.17 360)
+			(at 0 1.17 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "769380eb-a65a-4dbc-b32b-1fa08c7c2f5a")
@@ -6347,7 +6347,7 @@
 			(uuid "f99e9cdb-2704-48b4-bf9c-969bc9c41eda")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "62d3fc5a-ddd6-4e50-befd-a1b2389d5f9f")
 			(effects
@@ -13419,7 +13419,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C42"
-			(at 0 -1.16 270)
+			(at 0 -1.16 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "2b645f68-6e58-41b1-adc4-bc32a4802973")
@@ -13431,7 +13431,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 0 1.16 270)
+			(at 0 1.16 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fcd6cd35-e590-433d-af16-d3da3f673b0e")
@@ -13584,7 +13584,7 @@
 			(uuid "4df816a3-9ec0-4e5c-a97b-42cefd366812")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "05f55e49-52f9-47fb-9845-55d8d0142606")
 			(effects
