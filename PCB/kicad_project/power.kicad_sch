@@ -2184,7 +2184,7 @@
 				)
 			)
 		)
-		(property "Value" "100kΩ"
+		(property "Value" "309kΩ"
 			(at 79.502 90.17 90)
 			(effects
 				(font
