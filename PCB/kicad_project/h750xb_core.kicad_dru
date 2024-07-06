@@ -1,0 +1,73 @@
+# 嘉立创双层、多层板工艺DRC
+(version 1)
+
+#尺寸
+(rule "导线(外层1oz)"
+	(constraint track_width (min 0.102mm))
+	(condition "A.Type == 'Track' && B.Type == 'Track' && (AB.existsOnLayer('F.Cu') || AB.existsOnLayer('B.Cu'))"))
+(rule "导线(内层0.5oz)"
+	(constraint track_width (min 0.089mm))
+	(condition "A.Type == 'Track' && B.Type == 'Track' && (!AB.existsOnLayer('F.Cu') && !AB.existsOnLayer('B.Cu'))"))
+(rule "孔环宽度"
+	(constraint annular_width (min 0.05mm))
+	(condition "A.Type == 'Via'"))
+(rule "过孔直径"
+	(constraint hole_size (min 0.3mm))
+	(condition "A.Type == 'Via'"))
+
+#安全间距
+(rule "导线-导线(外层)"
+	(layer outer)
+	(constraint clearance (min 0.102mm))
+	(condition "A.Type == 'Track' && B.Type == 'Track'"))
+(rule "导线-导线(内层)"
+	(layer inner)
+	(constraint clearance (min 0.089mm))
+	(condition "A.Type == 'Track' && B.Type == 'Track'"))
+(rule "导线-焊盘"
+	(constraint clearance (min 0.152mm))
+	(condition "A.Type == 'Track' && B.Type == 'Pad'"))
+(rule "焊盘-焊盘"
+	(constraint clearance (min 0.152mm))
+	(condition "A.Type == 'Pad' && B.Type == 'Pad'"))
+(rule "过孔-导线"
+    (constraint clearance (min 0.152mm))
+    (condition "A.Type == 'Via' && B.Type == 'Track'"))
+(rule "过孔-焊盘"
+    (constraint clearance (min 0.152mm))
+    (condition "A.Type == 'Via' && B.Type == 'Pad'"))
+(rule "过孔-过孔"
+    (constraint clearance (min 0.152mm))
+    (condition "A.Type == 'Via' && B.Type == 'Via'"))
+(rule "导线-板边"
+    (constraint edge_clearance (min 0.3mm))
+    (condition "A.Type == 'Track'"))
+(rule "导线-非金属化孔"
+    (constraint hole_clearance (min 0.152mm))
+    (condition "A.Type == 'Track' && B.Pad_Type == 'NPTH, mechanical' "))
+
+###等长设置###
+(rule "sdram走线等长"
+	(constraint length (min 1500mil)(max 1520mil))
+	(condition "A.NetClass == 'sdram_data'"))
+
+
+###多层板工艺###
+(rule "导线在BGA下的间距"
+	(layer outer)
+	(constraint track_width (min 0.0889mm))
+	(constraint clearance (min 0.0889mm))
+	(condition "A.intersectsFrontCourtyard('U1')||A.intersectsFrontCourtyard('U9')"))
+
+
+###阻抗控制###
+(rule "50欧姆阻抗匹配（外层）(除开处于BGA下的)"
+	(layer outer)
+	(constraint track_width (opt 6.16mil))
+	(constraint clearance (min 12.32mil))
+	(condition "(!(A.intersectsCourtyard('U1')||A.intersectsCourtyard('U9'))) && A.NetClass == '50Ω'|| A.NetClass == 'sdram_addr'||A.NetClass == 'sdram_ctrl'||A.NetClass == 'sdram_data'||A.NetClass == 'QSPI'"))
+(rule "50欧姆阻抗匹配（内层）(除开处于BGA下的)"
+	(layer inner)
+	(constraint track_width (opt 5.61mil))
+	(constraint clearance (min 11.22mil))
+	(condition "(!(A.intersectsCourtyard('U1')||A.intersectsCourtyard('U9'))) && A.NetClass == '50Ω'|| A.NetClass == 'sdram_addr'||A.NetClass == 'sdram_ctrl'||A.NetClass == 'sdram_data'||A.NetClass == 'QSPI'"))

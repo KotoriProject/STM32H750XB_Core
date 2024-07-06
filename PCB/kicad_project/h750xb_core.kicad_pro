@@ -181,6 +181,7 @@
         0.0,
         0.0889,
         0.1016,
+        0.142494,
         0.156464,
         0.254
       ],
@@ -205,9 +206,9 @@
           "corner_radius_percentage": 80,
           "corner_style": 1,
           "max_amplitude": 1.0,
-          "min_amplitude": 0.2,
+          "min_amplitude": 0.0889,
           "single_sided": false,
-          "spacing": 0.6
+          "spacing": 0.469392
         }
       },
       "via_dimensions": [
@@ -462,9 +463,9 @@
       {
         "bus_width": 12,
         "clearance": 0.0889,
-        "diff_pair_gap": 0.0,
+        "diff_pair_gap": 3.5,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.0,
+        "diff_pair_width": 3.5,
         "line_style": 0,
         "microvia_diameter": 0.0,
         "microvia_drill": 0.0,
@@ -478,7 +479,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.156464,
+        "clearance": 0.0889,
         "diff_pair_gap": 0.0,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.0,
@@ -488,7 +489,24 @@
         "name": "50Ω",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.156464,
+        "track_width": 0.0889,
+        "via_diameter": 0.4,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.0889,
+        "diff_pair_gap": 3.5,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 3.5,
+        "line_style": 0,
+        "microvia_diameter": 0.0,
+        "microvia_drill": 0.0,
+        "name": "QSPI",
+        "pcb_color": "rgb(194, 0, 194)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.0889,
         "via_diameter": 0.4,
         "via_drill": 0.3,
         "wire_width": 6
@@ -505,9 +523,9 @@
         "name": "power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.254,
-        "via_diameter": 0.762,
-        "via_drill": 0.4572,
+        "track_width": 0.0889,
+        "via_diameter": 0.4,
+        "via_drill": 0.3,
         "wire_width": 6
       },
       {
@@ -522,7 +540,24 @@
         "name": "sdram_addr",
         "pcb_color": "rgb(221, 133, 0)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.156464,
+        "track_width": 0.0889,
+        "via_diameter": 0.4,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.0889,
+        "diff_pair_gap": 3.5,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 3.5,
+        "line_style": 0,
+        "microvia_diameter": 0.0,
+        "microvia_drill": 0.0,
+        "name": "sdram_ctrl",
+        "pcb_color": "rgb(0, 194, 0)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.0889,
         "via_diameter": 0.4,
         "via_drill": 0.3,
         "wire_width": 6
@@ -537,9 +572,9 @@
         "microvia_diameter": 0.0,
         "microvia_drill": 0.0,
         "name": "sdram_data",
-        "pcb_color": "rgb(194, 0, 0)",
+        "pcb_color": "rgb(132, 132, 0)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.156464,
+        "track_width": 0.0889,
         "via_diameter": 0.4,
         "via_drill": 0.3,
         "wire_width": 6
@@ -548,11 +583,21 @@
     "meta": {
       "version": 3
     },
-    "net_colors": null,
+    "net_colors": {
+      "GND": "rgb(72, 72, 72)"
+    },
     "netclass_assignments": {
       "+1V8": "power",
       "+3V3": "power",
       "/VBAT": "power",
+      "/mcu/SDRAM_BA0": "sdram_ctrl",
+      "/mcu/SDRAM_BA1": "sdram_ctrl",
+      "/mcu/SDRAM_CAS": "sdram_ctrl",
+      "/mcu/SDRAM_CKE": "sdram_ctrl",
+      "/mcu/SDRAM_CLK": "sdram_ctrl",
+      "/mcu/SDRAM_CS#": "sdram_ctrl",
+      "/mcu/SDRAM_RAS": "sdram_ctrl",
+      "/mcu/SDRAM_WE": "sdram_ctrl",
       "/mcu/VBAT": "power",
       "/mcu/VCAP": "power",
       "/mcu/VDDA": "power",
@@ -569,32 +614,20 @@
         "pattern": "/mcu/SDRAM_D*"
       },
       {
-        "netclass": "50Ω",
-        "pattern": "/mcu/SDRAM_WE"
+        "netclass": "power",
+        "pattern": "/mcu/V*"
       },
       {
-        "netclass": "50Ω",
-        "pattern": "/mcu/SDRAM_CAS"
+        "netclass": "power",
+        "pattern": "+3V3"
       },
       {
-        "netclass": "50Ω",
-        "pattern": "/mcu/SDRAM_RAS"
+        "netclass": "power",
+        "pattern": "GND"
       },
       {
-        "netclass": "50Ω",
-        "pattern": "/mcu/SDRAM_CS#"
-      },
-      {
-        "netclass": "50Ω",
-        "pattern": "/mcu/SDRAM_CKE"
-      },
-      {
-        "netclass": "50Ω",
-        "pattern": "/mcu/SDRAM_CLK"
-      },
-      {
-        "netclass": "50Ω",
-        "pattern": "/mcu/SDRAM_BA*"
+        "netclass": "QSPI",
+        "pattern": "/mcu/QSPI*"
       }
     ]
   },
