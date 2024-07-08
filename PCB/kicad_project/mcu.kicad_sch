@@ -13310,17 +13310,6 @@
 		)
 		(uuid "01577120-16e7-4a2d-b5bc-7ab557aa0fa2")
 	)
-	(label "SDRAM_D22"
-		(at 389.89 242.57 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "01cf1f5b-8a4f-460d-8b9c-467cb74a6645")
-	)
 	(label "SDRAM_D24"
 		(at 87.63 149.86 0)
 		(fields_autoplaced yes)
@@ -13376,6 +13365,17 @@
 		)
 		(uuid "0a37737e-852a-4919-879d-497f80a16afd")
 	)
+	(label "SDRAM_D26"
+		(at 389.89 260.35 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0b387589-d35a-46c2-b367-61e7f8c6a2cb")
+	)
 	(label "QSPI2_IO3"
 		(at 87.63 271.78 0)
 		(fields_autoplaced yes)
@@ -13386,6 +13386,17 @@
 			(justify left bottom)
 		)
 		(uuid "0b56e01c-2775-499c-b5e8-22b39cfd16e3")
+	)
+	(label "SDRAM_D21"
+		(at 389.89 245.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0e7fe47f-663c-4c3b-a7a5-fcd5bec39c6c")
 	)
 	(label "SDRAM_D31"
 		(at 87.63 175.26 0)
@@ -13419,6 +13430,17 @@
 			(justify right bottom)
 		)
 		(uuid "16da258b-5df1-4276-89f8-7c8f2d5c7513")
+	)
+	(label "SDRAM_D19"
+		(at 389.89 237.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "175d373d-f5f1-4746-a327-6dc9513e5caa")
 	)
 	(label "SDRAM_D15"
 		(at 198.12 228.6 0)
@@ -13475,6 +13497,17 @@
 		)
 		(uuid "1ac94add-8c26-485d-a986-b255cedca256")
 	)
+	(label "SDRAM_D31"
+		(at 389.89 265.43 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1cda3536-a3bc-4b0a-b1dd-9c3a1ae53b75")
+	)
 	(label "QSPI_CS"
 		(at 334.01 336.55 0)
 		(fields_autoplaced yes)
@@ -13486,17 +13519,6 @@
 		)
 		(uuid "1d8f0c75-01c0-43a9-9569-e52e4f79fcd3")
 	)
-	(label "SDRAM_D27"
-		(at 389.89 260.35 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1e6e6d71-89c6-47ae-a797-74732b7451ab")
-	)
 	(label "SDRAM_D24"
 		(at 389.89 252.73 180)
 		(fields_autoplaced yes)
@@ -13507,6 +13529,17 @@
 			(justify right bottom)
 		)
 		(uuid "20103649-26cc-4424-8155-21ba7a751ebb")
+	)
+	(label "SDRAM_D28"
+		(at 389.89 270.51 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2046d5b9-2f47-41dc-ad50-04bc1c31c268")
 	)
 	(label "SDRAM_D12"
 		(at 389.89 212.09 180)
@@ -13541,17 +13574,6 @@
 		)
 		(uuid "27e2c39d-c3f1-467d-a57c-25e473750379")
 	)
-	(label "SDRAM_D20"
-		(at 389.89 237.49 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "291ee983-cbd5-4e03-ac3d-6cfe54cb5e3f")
-	)
 	(label "SDRAM_D13"
 		(at 198.12 223.52 0)
 		(fields_autoplaced yes)
@@ -13573,6 +13595,17 @@
 			(justify left bottom)
 		)
 		(uuid "2aa3939b-4c28-4f1c-b2e4-7e5e3c140680")
+	)
+	(label "SDRAM_D20"
+		(at 389.89 242.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2bce09cf-373c-4e03-bbf2-7bb0d3b80445")
 	)
 	(label "SDRAM_A3"
 		(at 334.01 181.61 0)
@@ -13640,17 +13673,6 @@
 		)
 		(uuid "3bcc4194-be52-472b-8de3-de95e3b9ee49")
 	)
-	(label "SDRAM_D19"
-		(at 389.89 234.95 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3ccbf434-5a2c-4367-a164-a1f06542a8df")
-	)
 	(label "QSPI1_IO2"
 		(at 209.55 251.46 180)
 		(fields_autoplaced yes)
@@ -13672,17 +13694,6 @@
 			(justify left bottom)
 		)
 		(uuid "3eec3880-b75e-4c02-8ca8-4ebb15fa7d7d")
-	)
-	(label "SDRAM_D29"
-		(at 389.89 265.43 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3f8cc208-6ba5-4cd0-b01e-7d46f8df852d")
 	)
 	(label "SDRAM_CKE"
 		(at 335.28 222.25 0)
@@ -14025,6 +14036,17 @@
 		)
 		(uuid "7405a09f-109f-405a-912c-5af13b867c5d")
 	)
+	(label "SDRAM_D25"
+		(at 389.89 262.89 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "76e67987-08fd-4299-934e-bd20059a789e")
+	)
 	(label "SDRAM_D2"
 		(at 389.89 181.61 180)
 		(fields_autoplaced yes)
@@ -14046,17 +14068,6 @@
 			(justify left bottom)
 		)
 		(uuid "877b0c6f-d5c9-4fa3-aecd-3a263dbcd46c")
-	)
-	(label "SDRAM_D21"
-		(at 389.89 240.03 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "87f0ce9c-9af7-43c9-9d7d-b2f207c06560")
 	)
 	(label "SDRAM_CS#"
 		(at 198.12 160.02 0)
@@ -14156,17 +14167,6 @@
 			(justify left bottom)
 		)
 		(uuid "92e134cc-d665-474e-a01e-8134477a2941")
-	)
-	(label "SDRAM_D31"
-		(at 389.89 270.51 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9322803b-dab9-4c24-b7ed-fc1cc69ebe5a")
 	)
 	(label "QSPI1_IO0"
 		(at 284.48 341.63 0)
@@ -14344,6 +14344,17 @@
 		)
 		(uuid "a5507b31-6032-45fd-9a08-8c1997a4032e")
 	)
+	(label "SDRAM_D27"
+		(at 389.89 257.81 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a6ca5ea9-d7e9-4b17-9437-3640f22ce35a")
+	)
 	(label "SDRAM_D8"
 		(at 198.12 274.32 0)
 		(fields_autoplaced yes)
@@ -14432,17 +14443,6 @@
 		)
 		(uuid "b9b902df-b675-42f5-80d6-c47644e30052")
 	)
-	(label "SDRAM_D26"
-		(at 389.89 257.81 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bab27d49-38e6-4a0f-80a0-e0835d30f37d")
-	)
 	(label "QSPI_CS"
 		(at 209.55 187.96 180)
 		(fields_autoplaced yes)
@@ -14487,6 +14487,17 @@
 		)
 		(uuid "c107c1ad-82cd-4f45-99d2-20da8dfb3302")
 	)
+	(label "SDRAM_D29"
+		(at 389.89 255.27 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c7a43625-378f-45fc-8a81-de304ed5ca8b")
+	)
 	(label "SDRAM_DQM1"
 		(at 198.12 248.92 0)
 		(fields_autoplaced yes)
@@ -14508,6 +14519,17 @@
 			(justify left bottom)
 		)
 		(uuid "cbfb2d21-7462-4bca-9445-65a3ca2b008a")
+	)
+	(label "SDRAM_D23"
+		(at 389.89 240.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cda7a7c4-b864-4880-99f9-fce9ccb77a00")
 	)
 	(label "SDRAM_DQM1"
 		(at 392.43 199.39 180)
@@ -14563,17 +14585,6 @@
 			(justify left bottom)
 		)
 		(uuid "d906e1e5-d5c4-4c25-87f0-e0a1e5d01440")
-	)
-	(label "SDRAM_D28"
-		(at 389.89 262.89 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "da47b15b-c287-4809-80a4-aa6438bf03c6")
 	)
 	(label "SDRAM_D30"
 		(at 389.89 267.97 180)
@@ -14795,17 +14806,6 @@
 		)
 		(uuid "fcf19e45-54d3-4673-9ed1-af184437ef98")
 	)
-	(label "SDRAM_D23"
-		(at 389.89 245.11 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "fcf22b6b-4229-489f-af8f-774f2050298f")
-	)
 	(label "QSPI_CS"
 		(at 284.48 336.55 0)
 		(fields_autoplaced yes)
@@ -14817,8 +14817,8 @@
 		)
 		(uuid "fd20e4ac-73e6-4383-98da-265518898e48")
 	)
-	(label "SDRAM_D25"
-		(at 389.89 255.27 180)
+	(label "SDRAM_D22"
+		(at 389.89 234.95 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14826,7 +14826,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "fd381d14-fe85-4fd5-9df1-abab586fa86c")
+		(uuid "feb779d5-4251-4795-9aa4-cc9a4c208048")
 	)
 	(label "SDRAM_D28"
 		(at 87.63 165.1 0)

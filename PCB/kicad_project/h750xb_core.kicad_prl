@@ -1,8 +1,8 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 31,
     "active_layer_preset": "",
-    "auto_track_width": false,
+    "auto_track_width": true,
     "hidden_netclasses": [
       "Default",
       "QSPI",
@@ -163,7 +163,7 @@
       "unconnected-(U9A-NC-PadK3)"
     ],
     "high_contrast_mode": 1,
-    "net_color_mode": 2,
+    "net_color_mode": 1,
     "opacity": {
       "images": 0.30000001192092896,
       "pads": 0.47999998927116394,
@@ -220,8 +220,8 @@
       36,
       40
     ],
-    "visible_layers": "ffcfff0_ffffffed",
-    "zone_display_mode": 0
+    "visible_layers": "ffc3ff0_ffffffed",
+    "zone_display_mode": 1
   },
   "git": {
     "repo_password": "",
