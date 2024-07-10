@@ -47,9 +47,12 @@
     (condition "A.Type == 'Track' && B.Pad_Type == 'NPTH, mechanical' "))
 
 ###等长设置###
-(rule "sdram走线等长"
-	(constraint length (min 1500mil)(max 1520mil))
-	(condition "A.NetClass == 'sdram_data'"))
+#(rule "sdram走线等长"
+#	(constraint length (min 1500mil)(max 1520mil))
+#	(condition "A.NetClass == 'sdram_data'"))
+(rule "QSPI走线等长"
+	(constraint length (min 1350mil)(max 1360mil))
+	(condition "A.NetClass == 'QSPI'"))
 
 
 ###多层板工艺###

@@ -608,6 +608,23 @@
       },
       {
         "bus_width": 12,
+        "clearance": 0.0889,
+        "diff_pair_gap": 3.5,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 3.5,
+        "line_style": 0,
+        "microvia_diameter": 0.0,
+        "microvia_drill": 0.0,
+        "name": "nc",
+        "pcb_color": "rgb(255, 255, 255)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.0889,
+        "via_diameter": 0.4,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
         "clearance": 0.127,
         "diff_pair_gap": 0.0,
         "diff_pair_via_gap": 0.25,
@@ -616,7 +633,7 @@
         "microvia_diameter": 0.0,
         "microvia_drill": 0.0,
         "name": "power",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(132, 0, 0)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.0889,
         "via_diameter": 0.4,
@@ -710,7 +727,7 @@
       },
       {
         "netclass": "power",
-        "pattern": "/mcu/V*"
+        "pattern": "*V*"
       },
       {
         "netclass": "power",
@@ -723,6 +740,10 @@
       {
         "netclass": "QSPI",
         "pattern": "/mcu/QSPI*"
+      },
+      {
+        "netclass": "nc",
+        "pattern": "unconnected-(U1*"
       }
     ]
   },

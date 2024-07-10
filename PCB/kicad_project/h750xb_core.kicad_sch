@@ -2016,6 +2016,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 53.34) (xy 163.83 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3e3ece7-5bec-4520-901e-ef271ccf5446")
+	)
+	(wire
+		(pts
 			(xy 163.83 36.83) (xy 163.83 49.53)
 		)
 		(stroke
@@ -2063,16 +2073,6 @@
 			(type default)
 		)
 		(uuid "e95fe55a-3a61-4400-bca1-2d9b5add39d9")
-	)
-	(wire
-		(pts
-			(xy 156.21 53.34) (xy 147.32 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eabb7515-60dd-4e6c-828f-e191915afdf3")
 	)
 	(wire
 		(pts
@@ -2324,7 +2324,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 156.21 60.96 0)
+		(at 171.45 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2333,7 +2333,7 @@
 		(fields_autoplaced yes)
 		(uuid "04e58fd4-fbaa-4f94-96b5-e88a4dd62d7f")
 		(property "Reference" "#PWR05"
-			(at 156.21 67.31 0)
+			(at 177.8 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2342,7 +2342,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 156.21 66.04 0)
+			(at 176.53 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2350,7 +2350,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 60.96 0)
+			(at 171.45 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2359,7 +2359,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 60.96 0)
+			(at 171.45 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2368,7 +2368,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 156.21 60.96 0)
+			(at 171.45 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2818,7 +2818,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 156.21 57.15 0)
+		(at 167.64 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2826,7 +2826,7 @@
 		(dnp no)
 		(uuid "453367a4-8cb5-47cb-9502-a26941d79566")
 		(property "Reference" "C36"
-			(at 156.464 55.118 0)
+			(at 165.608 53.086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2835,7 +2835,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 156.21 59.182 0)
+			(at 169.672 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2844,7 +2844,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 157.1752 60.96 0)
+			(at 171.45 52.3748 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2853,7 +2853,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 156.21 57.15 0)
+			(at 167.64 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2862,7 +2862,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 156.21 57.15 0)
+			(at 167.64 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3976,7 +3976,7 @@
 	)
 	(sheet
 		(at 132.08 60.96)
-		(size 20.32 30.48)
+		(size 69.85 59.69)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -3996,7 +3996,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 132.08 92.0246 0)
+			(at 132.08 121.2346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4083,6 +4083,26 @@
 				(justify left)
 			)
 			(uuid "e9be9e09-a55e-427e-bdb6-221a2f2466fa")
+		)
+		(pin "USB_FS_D-" bidirectional
+			(at 132.08 101.6 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "aa516bcb-011a-4570-89fb-b7d15a844c9a")
+		)
+		(pin "USB_FS_D+" bidirectional
+			(at 132.08 97.79 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6a725ef7-46ad-4a46-a674-ef9f3015b86b")
 		)
 		(instances
 			(project "h750xb_core"

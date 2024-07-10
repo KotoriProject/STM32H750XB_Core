@@ -1,11 +1,10 @@
 {
   "board": {
-    "active_layer": 31,
-    "active_layer_preset": "",
+    "active_layer": 0,
+    "active_layer_preset": "信号层走线",
     "auto_track_width": true,
     "hidden_netclasses": [
       "Default",
-      "QSPI",
       "power"
     ],
     "hidden_nets": [
@@ -40,12 +39,10 @@
       "+2V048",
       "/VBAT",
       "unconnected-(U1-PK3-PadC8)",
-      "/mcu/QSPI_CLK",
       "unconnected-(U1-PA8-PadE15)",
       "Net-(U2-FB)",
       "Net-(U3-FB)",
       "unconnected-(U1-PH6-PadT11)",
-      "/mcu/QSPI1_IO3",
       "unconnected-(U1-NC-PadK16)",
       "unconnected-(U1-PD2-PadD12)",
       "unconnected-(U1-PA5-PadT3)",
@@ -55,9 +52,8 @@
       "unconnected-(U1-PB7-PadC5)",
       "unconnected-(U1-PB12-PadT14)",
       "unconnected-(U1-PK7-PadD7)",
-      "unconnected-(U1-PA12-PadE16)",
+      "/mcu/USB_FS_D-",
       "unconnected-(U1-PA10-PadD14)",
-      "/mcu/QSPI1_IO0",
       "unconnected-(U1-PA2-PadN3)",
       "unconnected-(U1-PJ12-PadD11)",
       "unconnected-(U1-PG10-PadA9)",
@@ -83,10 +79,7 @@
       "unconnected-(U1-PD12-PadR16)",
       "unconnected-(U1-PJ13-PadE10)",
       "unconnected-(U1-PJ5-PadR12)",
-      "/mcu/QSPI_CS",
-      "/mcu/QSPI2_IO0",
       "unconnected-(U1-PA6-PadR3)",
-      "/mcu/QSPI2_IO3",
       "unconnected-(U1-PK2-PadH17)",
       "unconnected-(U1-PE6-PadE5)",
       "unconnected-(U1-PG11-PadB9)",
@@ -108,10 +101,7 @@
       "unconnected-(U1-PC2_C-PadR1)",
       "unconnected-(U1-PE4-PadD2)",
       "unconnected-(U1-PC5-PadU4)",
-      "/mcu/QSPI2_IO2",
       "unconnected-(U1-PB0-PadU5)",
-      "/mcu/QSPI1_IO2",
-      "/mcu/QSPI1_IO1",
       "unconnected-(U1-PJ9-PadM14)",
       "unconnected-(U1-PD5-PadA11)",
       "unconnected-(U1-PJ14-PadD10)",
@@ -123,7 +113,6 @@
       "unconnected-(U1-PE3-PadD3)",
       "unconnected-(U1-PC3_C-PadR2)",
       "unconnected-(U1-PC0-PadL2)",
-      "/mcu/QSPI2_IO1",
       "unconnected-(U1-PI13-PadH2)",
       "unconnected-(U1-PG7-PadF16)",
       "unconnected-(U1-PJ2-PadT6)",
@@ -146,7 +135,7 @@
       "unconnected-(U1-PG6-PadG15)",
       "unconnected-(U1-PC7-PadF13)",
       "Net-(U1-PH0)",
-      "unconnected-(U1-PA11-PadE17)",
+      "/mcu/USB_FS_D+",
       "unconnected-(U1-PD7-PadC11)",
       "unconnected-(U1-PD11-PadR15)",
       "unconnected-(U1-NC-PadM16)",
@@ -163,7 +152,7 @@
       "unconnected-(U9A-NC-PadK3)"
     ],
     "high_contrast_mode": 1,
-    "net_color_mode": 1,
+    "net_color_mode": 2,
     "opacity": {
       "images": 0.30000001192092896,
       "pads": 0.47999998927116394,
@@ -176,7 +165,7 @@
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": false,
+      "lockedItems": true,
       "otherItems": true,
       "pads": true,
       "text": true,
@@ -220,8 +209,8 @@
       36,
       40
     ],
-    "visible_layers": "ffc3ff0_ffffffed",
-    "zone_display_mode": 1
+    "visible_layers": "ffcfff0_ffffffed",
+    "zone_display_mode": 0
   },
   "git": {
     "repo_password": "",
