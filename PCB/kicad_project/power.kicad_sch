@@ -1005,6 +1005,12 @@
 		(uuid "5b4fb67d-6852-4b00-850d-d91c911fbb8d")
 	)
 	(junction
+		(at 102.87 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "62703459-44c9-469b-93bb-12879a099713")
+	)
+	(junction
 		(at 83.82 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1021,12 +1027,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8a1157c8-c61e-4eed-bfc4-e1ff7cba0fcc")
-	)
-	(junction
-		(at 119.38 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a4ba2800-3956-4da6-8516-e5892aab7ef9")
 	)
 	(junction
 		(at 133.35 76.2)
@@ -1051,12 +1051,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d01019e0-a289-4ca2-b17d-15404870e70d")
-	)
-	(junction
-		(at 102.87 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d5ae5eb0-e71a-4ede-8fe0-dae201df3be8")
 	)
 	(junction
 		(at 147.32 50.8)
@@ -1110,7 +1104,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 121.92) (xy 119.38 121.92)
+			(xy 113.03 121.92) (xy 124.46 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1137,16 +1131,6 @@
 			(type default)
 		)
 		(uuid "2ad726c7-2038-415d-b307-12b92afcc09e")
-	)
-	(wire
-		(pts
-			(xy 102.87 129.54) (xy 119.38 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e9ad270-930c-46b9-8169-18497c80820e")
 	)
 	(wire
 		(pts
@@ -1230,6 +1214,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 114.3) (xy 119.38 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65318491-4c51-44d7-bfee-c0bea6f4f3f3")
+	)
+	(wire
+		(pts
 			(xy 147.32 50.8) (xy 147.32 49.53)
 		)
 		(stroke
@@ -1290,6 +1284,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 113.03) (xy 102.87 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bbd754e-9ca4-4b41-854e-c37350dc8a97")
+	)
+	(wire
+		(pts
 			(xy 91.44 35.56) (xy 91.44 41.91)
 		)
 		(stroke
@@ -1327,16 +1331,6 @@
 			(type default)
 		)
 		(uuid "925a1853-bfd5-493e-b66a-e415dedd52bf")
-	)
-	(wire
-		(pts
-			(xy 119.38 121.92) (xy 124.46 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92eb4b8a-f6a4-44f1-9f54-ac10e38c356d")
 	)
 	(wire
 		(pts
@@ -1417,6 +1411,16 @@
 			(type default)
 		)
 		(uuid "bac016d8-c4d1-4b1e-8d1c-a79c71092edd")
+	)
+	(wire
+		(pts
+			(xy 102.87 114.3) (xy 111.76 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bac82166-6210-4827-968f-7dbdcb1e8263")
 	)
 	(wire
 		(pts
@@ -1621,6 +1625,18 @@
 	)
 	(hierarchical_label "PGND"
 		(shape input)
+		(at 120.65 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1965e54b-f5a8-4f8e-851e-ec85c6b471ab")
+	)
+	(hierarchical_label "PGND"
+		(shape input)
 		(at 147.32 59.69 180)
 		(fields_autoplaced yes)
 		(effects
@@ -1741,7 +1757,7 @@
 	)
 	(hierarchical_label "+3V3"
 		(shape output)
-		(at 102.87 114.3 90)
+		(at 102.87 113.03 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2229,6 +2245,75 @@
 			(project "h750xb_core"
 				(path "/a69f31b1-c3a2-49f5-a533-af75e45f29ed/e0128536-73a9-45ac-9dac-95fe4f1a4212"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 115.57 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5d822684-7515-4118-b24d-85c9b1e7caf5")
+		(property "Reference" "C36"
+			(at 113.538 114.046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.47uF"
+			(at 117.602 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 119.38 113.3348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 115.57 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "450ca7b3-151c-48a8-8e59-eb13819d3421")
+		)
+		(pin "1"
+			(uuid "fdb32e96-ccb2-4d85-bb63-e3f80e51b0ed")
+		)
+		(instances
+			(project "h750xb_core"
+				(path "/a69f31b1-c3a2-49f5-a533-af75e45f29ed/e0128536-73a9-45ac-9dac-95fe4f1a4212"
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -2917,75 +3002,6 @@
 			(project "h750xb_core"
 				(path "/a69f31b1-c3a2-49f5-a533-af75e45f29ed/e0128536-73a9-45ac-9dac-95fe4f1a4212"
 					(reference "C40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 119.38 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f46b02b9-0d31-4bb9-83a2-628a08a69dff")
-		(property "Reference" "C46"
-			(at 119.634 123.698 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 119.38 127.762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 120.3452 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 119.38 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 119.38 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9a14faa0-3882-4cd3-b5e2-5f3950a03952")
-		)
-		(pin "1"
-			(uuid "3fcb8e87-07e2-4bf8-bcc6-da88f377af65")
-		)
-		(instances
-			(project "h750xb_core"
-				(path "/a69f31b1-c3a2-49f5-a533-af75e45f29ed/e0128536-73a9-45ac-9dac-95fe4f1a4212"
-					(reference "C46")
 					(unit 1)
 				)
 			)

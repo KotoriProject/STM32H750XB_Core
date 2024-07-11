@@ -2732,6 +2732,7 @@
 					(alternate "I2S2_WS" bidirectional line)
 					(alternate "LPUART1_CTS" bidirectional line)
 					(alternate "LTDC_R4" bidirectional line)
+					(alternate "" input line)
 					(alternate "SPI2_NSS" bidirectional line)
 					(alternate "TIM1_CH4" bidirectional line)
 					(alternate "UART4_RX" bidirectional line)
@@ -11691,16 +11692,6 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 99.06) (xy 201.93 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8018b588-9a57-46ac-b95c-dda7dd93e73c")
-	)
-	(wire
-		(pts
 			(xy 116.84 33.02) (xy 124.46 33.02)
 		)
 		(stroke
@@ -12768,16 +12759,6 @@
 			(type default)
 		)
 		(uuid "d71be0e3-0b2e-45c5-9730-9ad30344c7f0")
-	)
-	(wire
-		(pts
-			(xy 198.12 96.52) (xy 201.93 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8dfca5b-f688-45ce-8d27-232723aa5b54")
 	)
 	(wire
 		(pts
@@ -15063,30 +15044,6 @@
 		)
 		(uuid "a2a6f996-28e5-48aa-ba23-4e6bd5b4ce63")
 	)
-	(hierarchical_label "USB_FS_D-"
-		(shape bidirectional)
-		(at 201.93 96.52 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a469ea81-42e7-45ae-8cb3-c6703e28ed78")
-	)
-	(hierarchical_label "USB_FS_D+"
-		(shape bidirectional)
-		(at 201.93 99.06 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a5e884c8-0826-4652-8351-9edd22edbce2")
-	)
 	(hierarchical_label "DGND"
 		(shape input)
 		(at 367.03 356.87 0)
@@ -16329,7 +16286,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 224.4852 33.02 0)
 			(effects
 				(font
@@ -16879,7 +16836,7 @@
 			(uuid "b0e20863-bd0d-41f6-b2a4-67e6ceedc0c5")
 		)
 		(instances
-			(project ""
+			(project "h750xb_core"
 				(path "/a69f31b1-c3a2-49f5-a533-af75e45f29ed/7c8a82fa-473c-4565-a293-03fd63e136b1"
 					(reference "U9")
 					(unit 1)
@@ -17979,7 +17936,7 @@
 		)
 		(pin "E17"
 			(uuid "090e9d14-689e-4f6b-b49c-f51a6a2d0c3e")
-			(alternate "USB_OTG_FS_DM")
+			(alternate "PA11")
 		)
 		(pin "E8"
 			(uuid "7f2c488a-0df9-4ad1-864e-f4d6621f1df8")
@@ -18028,7 +17985,7 @@
 		)
 		(pin "E16"
 			(uuid "e3d06821-abaa-4949-8e8c-a855bd6d1689")
-			(alternate "USB_OTG_FS_DP")
+			(alternate "PA12")
 		)
 		(pin "E10"
 			(uuid "8f80b67b-5f36-4a20-853b-cccf2fedb8d3")
@@ -19521,7 +19478,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 117.8052 33.02 0)
 			(effects
 				(font
@@ -19933,7 +19890,7 @@
 			(uuid "b0e20863-bd0d-41f6-b2a4-67e6ceedc0c6")
 		)
 		(instances
-			(project ""
+			(project "h750xb_core"
 				(path "/a69f31b1-c3a2-49f5-a533-af75e45f29ed/7c8a82fa-473c-4565-a293-03fd63e136b1"
 					(reference "U9")
 					(unit 2)

@@ -702,6 +702,7 @@
       "+1V8": "power",
       "+3V3": "power",
       "/VBAT": "power",
+      "/ex_VBAT": "power",
       "/mcu/SDRAM_BA0": "sdram_ctrl",
       "/mcu/SDRAM_BA1": "sdram_ctrl",
       "/mcu/SDRAM_CAS": "sdram_ctrl",
