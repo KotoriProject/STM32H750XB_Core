@@ -20,7 +20,7 @@
 2. 123
 3. 321
 4. 313421414
-
+123
 ### External Memory
 ### GPIO AFIO
 ### Debug Port
