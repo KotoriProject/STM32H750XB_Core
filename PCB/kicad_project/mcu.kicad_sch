@@ -2693,6 +2693,7 @@
 							)
 						)
 					)
+					(alternate "" input line)
 					(alternate "FDCAN1_TX" bidirectional line)
 					(alternate "HRTIM_CHD2" bidirectional line)
 					(alternate "I2S2_CK" bidirectional line)
@@ -15838,6 +15839,7 @@
 	)
 	(label "PJ4"
 		(at 93.98 116.84 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15881,6 +15883,7 @@
 	)
 	(label "PA5"
 		(at 214.63 81.28 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15902,6 +15905,7 @@
 	)
 	(label "PA9"
 		(at 214.63 91.44 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16011,6 +16015,7 @@
 	)
 	(label "PK0"
 		(at 93.98 83.82 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16021,6 +16026,7 @@
 	)
 	(label "PA8"
 		(at 214.63 88.9 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16097,6 +16103,7 @@
 	)
 	(label "PE6"
 		(at 212.09 261.62 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16107,6 +16114,7 @@
 	)
 	(label "PG3"
 		(at 82.55 243.84 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16172,6 +16180,7 @@
 	)
 	(label "PC5"
 		(at 212.09 172.72 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16204,6 +16213,7 @@
 	)
 	(label "PK3"
 		(at 93.98 91.44 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16214,6 +16224,7 @@
 	)
 	(label "PA10"
 		(at 214.63 93.98 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16224,6 +16235,7 @@
 	)
 	(label "PJ2"
 		(at 93.98 111.76 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16245,6 +16257,7 @@
 	)
 	(label "PK5"
 		(at 93.98 96.52 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16277,6 +16290,7 @@
 	)
 	(label "PK1"
 		(at 93.98 86.36 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16287,6 +16301,7 @@
 	)
 	(label "PE5"
 		(at 212.09 259.08 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16297,6 +16312,7 @@
 	)
 	(label "PJ0"
 		(at 93.98 106.68 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16318,6 +16334,7 @@
 	)
 	(label "PG6"
 		(at 82.55 251.46 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16339,6 +16356,7 @@
 	)
 	(label "PA7"
 		(at 214.63 86.36 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16371,6 +16389,7 @@
 	)
 	(label "PA0"
 		(at 214.63 63.5 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16392,6 +16411,7 @@
 	)
 	(label "PD5"
 		(at 212.09 215.9 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16402,6 +16422,7 @@
 	)
 	(label "PH6"
 		(at 81.28 208.28 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16423,6 +16444,7 @@
 	)
 	(label "PG12"
 		(at 82.55 266.7 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16433,6 +16455,7 @@
 	)
 	(label "PJ12"
 		(at 93.98 137.16 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16454,6 +16477,7 @@
 	)
 	(label "PG10"
 		(at 82.55 261.62 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16464,6 +16488,7 @@
 	)
 	(label "PD7"
 		(at 212.09 220.98 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16496,6 +16521,7 @@
 	)
 	(label "PJ5"
 		(at 93.98 119.38 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16517,6 +16543,7 @@
 	)
 	(label "PB8"
 		(at 204.47 132.08 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16571,6 +16598,7 @@
 	)
 	(label "PA6"
 		(at 214.63 83.82 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16603,6 +16631,7 @@
 	)
 	(label "PA12"
 		(at 214.63 99.06 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16646,6 +16675,7 @@
 	)
 	(label "PE4"
 		(at 212.09 256.54 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16678,6 +16708,7 @@
 	)
 	(label "PI15"
 		(at 81.28 187.96 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16699,6 +16730,7 @@
 	)
 	(label "PJ7"
 		(at 93.98 124.46 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16709,6 +16741,7 @@
 	)
 	(label "PD3"
 		(at 212.09 210.82 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16730,6 +16763,7 @@
 	)
 	(label "PI13"
 		(at 81.28 182.88 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16773,6 +16807,7 @@
 	)
 	(label "PD6"
 		(at 212.09 218.44 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16783,6 +16818,7 @@
 	)
 	(label "PB11"
 		(at 204.47 139.7 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16903,6 +16939,7 @@
 	)
 	(label "PJ8"
 		(at 93.98 127 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16924,6 +16961,7 @@
 	)
 	(label "PB2"
 		(at 204.47 116.84 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16945,6 +16983,7 @@
 	)
 	(label "PJ14"
 		(at 93.98 142.24 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16955,6 +16994,7 @@
 	)
 	(label "PK4"
 		(at 93.98 93.98 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16976,6 +17016,7 @@
 	)
 	(label "PB3"
 		(at 204.47 119.38 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16986,6 +17027,7 @@
 	)
 	(label "PB13"
 		(at 204.47 144.78 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16996,6 +17038,7 @@
 	)
 	(label "PA4"
 		(at 214.63 78.74 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17028,6 +17071,7 @@
 	)
 	(label "PD4"
 		(at 212.09 213.36 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17049,6 +17093,7 @@
 	)
 	(label "PI11"
 		(at 81.28 177.8 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17103,6 +17148,7 @@
 	)
 	(label "PB15"
 		(at 204.47 149.86 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17157,6 +17203,7 @@
 	)
 	(label "PK6"
 		(at 93.98 99.06 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17178,6 +17225,7 @@
 	)
 	(label "PB5"
 		(at 204.47 124.46 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17188,6 +17236,7 @@
 	)
 	(label "PJ11"
 		(at 93.98 134.62 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17198,6 +17247,7 @@
 	)
 	(label "PG7"
 		(at 82.55 254 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17230,6 +17280,7 @@
 	)
 	(label "PA1"
 		(at 214.63 68.58 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17262,6 +17313,7 @@
 	)
 	(label "PB9"
 		(at 204.47 134.62 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17294,6 +17346,7 @@
 	)
 	(label "PK2"
 		(at 93.98 88.9 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17304,6 +17357,7 @@
 	)
 	(label "PB1"
 		(at 204.47 114.3 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17314,6 +17368,7 @@
 	)
 	(label "PG13"
 		(at 82.55 269.24 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17335,6 +17390,7 @@
 	)
 	(label "PH7"
 		(at 81.28 210.82 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17400,6 +17456,7 @@
 	)
 	(label "PB7"
 		(at 204.47 129.54 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17432,6 +17489,7 @@
 	)
 	(label "PI12"
 		(at 81.28 180.34 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17442,6 +17500,7 @@
 	)
 	(label "PE3"
 		(at 212.09 254 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17496,6 +17555,7 @@
 	)
 	(label "PG11"
 		(at 82.55 264.16 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17506,6 +17566,7 @@
 	)
 	(label "PI14"
 		(at 81.28 185.42 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17549,6 +17610,7 @@
 	)
 	(label "PB14"
 		(at 204.47 147.32 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17559,6 +17621,7 @@
 	)
 	(label "PB10"
 		(at 204.47 137.16 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17580,6 +17643,7 @@
 	)
 	(label "PJ3"
 		(at 93.98 114.3 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17590,6 +17654,7 @@
 	)
 	(label "PB12"
 		(at 204.47 142.24 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17655,6 +17720,7 @@
 	)
 	(label "PB4"
 		(at 204.47 121.92 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17665,6 +17731,7 @@
 	)
 	(label "PH4"
 		(at 81.28 203.2 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17686,6 +17753,7 @@
 	)
 	(label "PI8"
 		(at 81.28 170.18 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17696,6 +17764,7 @@
 	)
 	(label "PB0"
 		(at 204.47 111.76 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17717,6 +17786,7 @@
 	)
 	(label "PJ10"
 		(at 93.98 132.08 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17738,6 +17808,7 @@
 	)
 	(label "PA3"
 		(at 214.63 76.2 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17759,6 +17830,7 @@
 	)
 	(label "PA11"
 		(at 214.63 96.52 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17769,6 +17841,7 @@
 	)
 	(label "PC7"
 		(at 212.09 177.8 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17790,6 +17863,7 @@
 	)
 	(label "PJ9"
 		(at 93.98 129.54 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17800,6 +17874,7 @@
 	)
 	(label "PC4"
 		(at 212.09 170.18 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17832,6 +17907,7 @@
 	)
 	(label "PC8"
 		(at 212.09 180.34 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17842,6 +17918,7 @@
 	)
 	(label "PJ1"
 		(at 93.98 109.22 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17852,6 +17929,7 @@
 	)
 	(label "PB6"
 		(at 204.47 127 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17873,6 +17951,7 @@
 	)
 	(label "PC6"
 		(at 212.09 175.26 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17971,6 +18050,7 @@
 	)
 	(label "PA15"
 		(at 214.63 106.68 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17981,6 +18061,7 @@
 	)
 	(label "PA14"
 		(at 214.63 104.14 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18002,6 +18083,7 @@
 	)
 	(label "PJ15"
 		(at 93.98 144.78 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18012,6 +18094,7 @@
 	)
 	(label "PK7"
 		(at 93.98 101.6 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18055,6 +18138,7 @@
 	)
 	(label "PJ13"
 		(at 93.98 139.7 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18087,6 +18171,7 @@
 	)
 	(label "PD2"
 		(at 212.09 208.28 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18130,6 +18215,7 @@
 	)
 	(label "PA13"
 		(at 214.63 101.6 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18140,6 +18226,7 @@
 	)
 	(label "PA2"
 		(at 214.63 73.66 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18161,6 +18248,7 @@
 	)
 	(label "PJ6"
 		(at 93.98 121.92 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18250,6 +18338,7 @@
 	(hierarchical_label "PC0"
 		(shape bidirectional)
 		(at 198.12 154.94 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18273,6 +18362,7 @@
 	(hierarchical_label "PF8"
 		(shape bidirectional)
 		(at 198.12 309.88 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18284,6 +18374,7 @@
 	(hierarchical_label "PF9"
 		(shape bidirectional)
 		(at 198.12 312.42 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18331,6 +18422,7 @@
 	(hierarchical_label "PD13"
 		(shape bidirectional)
 		(at 198.12 236.22 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18378,6 +18470,7 @@
 	(hierarchical_label "PD12"
 		(shape bidirectional)
 		(at 198.12 233.68 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18521,6 +18614,7 @@
 	(hierarchical_label "PC1"
 		(shape bidirectional)
 		(at 198.12 157.48 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18532,6 +18626,7 @@
 	(hierarchical_label "PC13"
 		(shape bidirectional)
 		(at 198.12 193.04 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18543,6 +18638,7 @@
 	(hierarchical_label "PF7"
 		(shape bidirectional)
 		(at 198.12 307.34 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18554,6 +18650,7 @@
 	(hierarchical_label "PC3_C"
 		(shape bidirectional)
 		(at 198.12 167.64 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18601,6 +18698,7 @@
 	(hierarchical_label "PC12"
 		(shape bidirectional)
 		(at 198.12 190.5 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18636,6 +18734,7 @@
 	(hierarchical_label "PC2_C"
 		(shape bidirectional)
 		(at 198.12 162.56 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18731,6 +18830,7 @@
 	(hierarchical_label "PA1_C"
 		(shape bidirectional)
 		(at 198.12 71.12 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18802,6 +18902,7 @@
 	(hierarchical_label "PA0_C"
 		(shape bidirectional)
 		(at 198.12 66.04 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18837,6 +18938,7 @@
 	(hierarchical_label "PD11"
 		(shape bidirectional)
 		(at 198.12 231.14 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
