@@ -1,0 +1,219 @@
+{
+  "Header": {
+    "GenerationSoftware": {
+      "Vendor": "KiCad",
+      "Application": "Pcbnew",
+      "Version": "8.0.3"
+    },
+    "CreationDate": "2024-07-19T10:15:31+08:00"
+  },
+  "GeneralSpecs": {
+    "ProjectId": {
+      "Name": "h750xb_core",
+      "GUID": "68373530-7862-45f6-936f-72652e6b6963",
+      "Revision": "rev?"
+    },
+    "Size": {
+      "X": 50.05,
+      "Y": 35.05
+    },
+    "LayerNumber": 6,
+    "BoardThickness": 1.5582,
+    "Finish": "None",
+    "ImpedanceControlled": true
+  },
+  "DesignRules": [
+    {
+      "Layers": "Outer",
+      "PadToPad": 0.0889,
+      "PadToTrack": 0.0889,
+      "TrackToTrack": 0.0889,
+      "MinLineWidth": 0.0889,
+      "TrackToRegion": 0.0889,
+      "RegionToRegion": 0.0889
+    },
+    {
+      "Layers": "Inner",
+      "PadToPad": 0.0,
+      "PadToTrack": 0.0,
+      "TrackToTrack": 0.0889,
+      "MinLineWidth": 0.0889,
+      "TrackToRegion": 0.127,
+      "RegionToRegion": 0.127
+    }
+  ],
+  "FilesAttributes": [
+    {
+      "Path": "h750xb_core-signal1_Cu.gbr",
+      "FileFunction": "Copper,L1,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "h750xb_core-gnd1_Cu.gbr",
+      "FileFunction": "Copper,L2,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "h750xb_core-signal2_Cu.gbr",
+      "FileFunction": "Copper,L3,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "h750xb_core-signal3+pwr_Cu.gbr",
+      "FileFunction": "Copper,L4,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "h750xb_core-power_Cu.gbr",
+      "FileFunction": "Copper,L5,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "h750xb_core-signal4_Cu.gbr",
+      "FileFunction": "Copper,L6,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "h750xb_core-F_Paste.gbr",
+      "FileFunction": "SolderPaste,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "h750xb_core-B_Paste.gbr",
+      "FileFunction": "SolderPaste,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "h750xb_core-F_Silkscreen.gbr",
+      "FileFunction": "Legend,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "h750xb_core-B_Silkscreen.gbr",
+      "FileFunction": "Legend,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "h750xb_core-F_Mask.gbr",
+      "FileFunction": "SolderMask,Top",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "h750xb_core-B_Mask.gbr",
+      "FileFunction": "SolderMask,Bot",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "h750xb_core-Edge_Cuts.gbr",
+      "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    }
+  ],
+  "MaterialStackup": [
+    {
+      "Type": "Legend",
+      "Color": "White",
+      "Name": "Top Silk Screen"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Top Solder Paste"
+    },
+    {
+      "Type": "SolderMask",
+      "Color": "Green",
+      "Thickness": 0.01,
+      "Name": "Top Solder Mask"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0351,
+      "Name": "signal1.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.0993,
+      "Material": "FR4",
+      "DielectricConstant": "4.5",
+      "LossTangent": "0.02",
+      "Name": "signal1.Cu/gnd1.Cu",
+      "Notes": "Type: dielectric layer 1 (from signal1.Cu to gnd1.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0152,
+      "Name": "gnd1.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.5499,
+      "Material": "FR4",
+      "DielectricConstant": "4.5",
+      "LossTangent": "0.02",
+      "Name": "gnd1.Cu/signal2.Cu",
+      "Notes": "Type: dielectric layer 2 (from gnd1.Cu to signal2.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0152,
+      "Name": "signal2.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.1087,
+      "Material": "FR4",
+      "DielectricConstant": "4.5",
+      "LossTangent": "0.02",
+      "Name": "signal2.Cu/signal3+pwr.Cu",
+      "Notes": "Type: dielectric layer 3 (from signal2.Cu to signal3+pwr.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0152,
+      "Name": "signal3+pwr.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.5499,
+      "Material": "FR4",
+      "DielectricConstant": "4.5",
+      "LossTangent": "0.02",
+      "Name": "signal3+pwr.Cu/power.Cu",
+      "Notes": "Type: dielectric layer 4 (from signal3+pwr.Cu to power.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0152,
+      "Name": "power.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.0993,
+      "Material": "FR4",
+      "DielectricConstant": "4.5",
+      "LossTangent": "0.02",
+      "Name": "power.Cu/signal4.Cu",
+      "Notes": "Type: dielectric layer 5 (from power.Cu to signal4.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0351,
+      "Name": "signal4.Cu"
+    },
+    {
+      "Type": "SolderMask",
+      "Color": "Green",
+      "Thickness": 0.01,
+      "Name": "Bottom Solder Mask"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Bottom Solder Paste"
+    },
+    {
+      "Type": "Legend",
+      "Color": "White",
+      "Name": "Bottom Silk Screen"
+    }
+  ]
+}
